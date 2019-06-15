@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lists / iFrames / Tables </title>
+</head>
+<style type="text/css">
+	ul li {list-style-type:circle;} /* Default, circle, suqare, none */
+
+	.no-styles li { text-decoration: underline;}
+	.subMenu li {text-decoration: none;}
+</style>
+<body>
+	<div>
+		<!-- <h2>Un-Ordered List (ul)</h2>
+		<ul>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+		</ul>
+
+		<h2>Ordered Lists</h2>
+		<ol type="a">
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			<li> Raju </li>
+			<li>Ravi</li>
+			<li>Ramesh</li>
+			<li>Raghu</li>
+			
+		</ol> -->
+		<h1>Holidays list in a year, month wise</h1>
+		<ol type="A">
+			<li>Holidays In January</li>
+				<ul>
+					<li>
+						Jan-26
+					</li>
+				</ul>
+			<li>Holidays in Febuary</li>
+				<ul>
+					<li>
+						Holidays in Febuary
+					</li>
+					<li><abbr>SBI</abbr></li>
+				</ul>
+			<li>Holidays in March</li>
+			<li>Holidays in April</li>
+				<ol>
+					<li><u>A</u></li>
+					<li>B</li>
+				</ol>
+		</ol>
+	</div>
+<div>
+	<ul class="no-styles">
+		<li>Home</li>
+		<li>Contact Us</li>
+		<li onmouseover="showSubMenu();">More</li>
+		<ol class="subMenu" type="a">
+			<li>Services</li>
+			<li>Support</li>
+			<li><abbr title="State bank of india">SBI</abbr></li>
+		</ol>
+	</ul>
+</div>
+	<div>
+		<select>
+			<option>A</option>
+			<option>B</option>
+		</select>
+	</div>
+
+	<script type="text/javascript">
+		function showSubMenu()
+		{
+			// //alert('adsasd');
+			// document.getElementsByClassName('subMenu').style.display = "none";
+			// //moreLink.style.display='none';
+		}
+	</script>
+</body>
+</html>

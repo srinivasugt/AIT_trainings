@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form elements</title>
+</head>
+<link  href="style.css" rel='stylesheet'>
+<style type="text/css">
+	/*body { background-image: url("download.jpg");}*/
+</style>
+<body>
+<div class="form-div">
+	<form enctype="multipart/form-data" name="registration" action="" method="post" >
+		<div>
+			<label>First name :</label>
+			<input type="text" value="" placeholder="Enter your first name" name="first_name" />
+		</div>
+		<div>
+			<label>Last name :</label>
+			<input type="text" value="" placeholder="Enter your last name" name="last_name" />
+		</div>
+		<div>
+			<label>Telephone :</label>
+			<input type="tel" value="" placeholder="Enter your phone number" name="phone" required pattern="[0-9]{10}" />
+		</div>
+		<div>
+			<label>Email :</label>
+			<input type="email" value="" placeholder="Enter your email" name="email" />
+		</div>
+		<div>
+			<label>No of years of Experience :</label>
+			<input type="number" value="" placeholder="Enter your total years of Experience" name="experience" min="0" max="10" required />
+		</div>
+		<div>
+			<label>DOB : </label>
+			<input type="date" value="" placeholder="Enter your DOB" name="dob" />
+		</div>
+		<div>
+			<label>Gender : </label>
+			<input type="radio" value="male" placeholder="Enter your DOB" name="gender" > Male
+			<input type="radio" value="female" placeholder="Enter your DOB" name="gender" > Female
+		</div>
+		<div>
+			<label>Career Level : </label>
+			<input type="range" value="" name="level" min="1" max="5" />
+		</div>
+		<div>
+			<label>Upload your CV : </label>
+			<input type="file" value="" name="file" />
+		</div>
+
+		<div>
+			<label>choose password : </label>
+			<input type="password" value="" placeholder="Password" name="pwd" />
+		</div>
+		<!-- <div>
+			<label>Image acts as a submit button with image : </label>
+			<input type="image" value="" placeholder="Password" name="pwd" />
+		</div> -->
+		<!-- <div>
+			<img src="download.jpg" width="100px">
+		</div> -->
+		<div>
+			<a href="index.html" title="Go to index page">Index page</a>
+		</div>
+		<div>
+			<label>Select country</label>
+			<select name="">
+				<option value="i">
+					India
+				</option>
+				<option value="usa">
+					USA
+				</option>
+			</select>
+		</div>
+		<div>
+			<label>Subscribe</label>
+			<input type="checkbox" name="sub[]" value="disc">Discount
+			<input type="checkbox" name="sub[]" value="sales">Sales
+			<input type="checkbox" name="sub[]" value="news">News
+		</div>
+<br>
+<div>
+	<input type="submit" name="" value="Submit">
+	<input type="reset" name="" value="Clear">
+</div>
+	</form>
+
+</div>
+</body>
+</html>

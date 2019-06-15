@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+
+	<style type="text/css">
+	table {border: 0px solid;}
+	table thead th, td {border:1px solid black; border-collapse: collapse;}
+</style>
+</head>
+
+<body>
+	<div>
+		
+		<table width="80%">
+			<thead>
+				<th>Sl #</th>
+				<th>User Name</th>
+				<th>Phone # </th>
+				<th>Team </th>
+				<th>Reporting Manager </th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>DEF </td>
+					<td> 123</td>
+					<td> MNO </td>
+					<td> XYZ &nbsp; &nbsp; &nbsp; &nbsp;  TRT</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>GHI </td>
+					<td> 123</td>
+					<td> MNO </td>
+					<td rowspan="3"> ATR</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>JKL </td>
+					<td> 123</td>
+					<td> MNO </td>
+					<!-- <td> ATR</td> -->
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>MNO </td>
+					<td> 123</td>
+					<td> MNO </td>
+					<!-- <td> ATR</td> -->
+				</tr>
+				<tr>
+					<td colspan="5">Above details are <q>dummy</q> details</td>
+				</tr>
+				<!-- <tr>
+					<td rowspan="2"> test</td>
+				</tr> -->
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
